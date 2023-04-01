@@ -11,7 +11,6 @@ function App() {
   return (
     <div className=" bg-white w-full bg-cover bg-center h-screen bg-[url('https://images.pexels.com/photos/3629227/pexels-photo-3629227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')]  flex justify-center items-center ">
       <div className='   flex flex-col p-10  border shadow-lg  backdrop-blur-sm bg-white/30 justify-center items-center  rounded-xl'>
- 
         <WeatherProvider>
           <Header />
           <Weather />

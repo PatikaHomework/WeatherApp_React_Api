@@ -16,8 +16,8 @@ function Header() {
                 <label htmlFor="countries" className="block p-2 text-4xl font-bold text-gray-900 mb-4 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">SELECT A CİTY</label>
                 <div className='flex flex-row'>
 
-                    <select id="countries"value={city} onChange={(e) => setCity(e.target.value)} className="bg-gray-50 border border-gray-300 text-gray-900 text-md rounded-lg focus:ring-teal-500-500 outline-none focus:border-teal-500 block w-full p-2.5">
-                        <option value={city}selected>{city}</option>
+                    <select id="countries" value={city} onChange={(e) => setCity(e.target.value)} className="bg-gray-50 border border-gray-300 text-gray-900 text-md rounded-lg focus:ring-teal-500-500 outline-none focus:border-teal-500 block w-full p-2.5">
+                        <option value={city} selected>{city}</option>
                         {
 
                             Citys?.map((city, key) => (
@@ -27,8 +27,7 @@ function Header() {
                         }
 
                     </select>
-{/*                     <button type='submit' className='py-2.5 px-4 border  rounded-lg bg-teal-500 text-white hover:border-teal-500 hover:bg-white hover:text-black text-center '>ara</button>
- */}                </div>  
+                </div>
             </form>
         </div>
     )
