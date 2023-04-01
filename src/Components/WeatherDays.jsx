@@ -34,7 +34,7 @@ function WeatherDays() {
                 </div>
                 <div className='text-center'>
                   <p className='text-sm'>  {day.description} </p>
-                  <p>{day.temperature} °C</p>
+                  <p className='font-semibold'>{day.temperature.toFixed(0)} °C</p>
                 </div>
               </div>
             )

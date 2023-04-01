@@ -4,7 +4,7 @@ import moment from "moment";
 function Weather() {
 
     const { WeatherData } = useWeather();
- 
+
 
     return (
         <div className='flex justify-center items-center p-5 '>
