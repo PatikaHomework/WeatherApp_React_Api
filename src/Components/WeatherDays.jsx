@@ -6,7 +6,7 @@ function WeatherDays() {
 
   // Verilen tarih dizgisinden gün adını almak için bir fonksiyon
   function getDayName(dateString) {
-    const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    const daysOfWeek = ['Pazar', 'Pazartesi', 'Salı', 'Çarşamba', 'Perşembe', 'Cuma', 'Cumartesi'];
     const date = new Date(dateString);
     const dayOfWeek = daysOfWeek[date.getDay()];
     return dayOfWeek;
