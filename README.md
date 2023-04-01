@@ -1,9 +1,9 @@
 # Weather Uygulaması
 ## Bu uygulama, OpenWeatherMap API'si kullanılarak oluşturulmuş bir hava durumu uygulamasıdır. Bu uygulama, kullanıcının girdiği şehir için günlük ve haftalık hava durumu verilerini gösterir.
 
-![Screenshot (7)](https://user-images.githubusercontent.com/62027425/229315571-8aea0889-8af3-4962-8a68-261c1261b8cd.png)
 
 Uygulamada React, Tailwind CSS ve Vite kullanılmıştır.
+![Opera Anlık Görüntü_2023-04-02_003102_127 0 0 1](https://user-images.githubusercontent.com/62027425/229315584-44deeed3-30ea-4ec1-bf94-411f7423ca6e.png)
 
 ## Kullanılan Paketler
 - React: UI componentleri oluşturmak için kullanılmıştır.
