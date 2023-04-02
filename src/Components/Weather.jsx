@@ -17,7 +17,7 @@ function Weather() {
                         <div className='flex flex-col p-3' >
                             <p className='text-2xl  font-bold py-3 uppercase ' >{WeatherData.name}</p>
                             <p className='text-md '> {moment(WeatherData.dt_txt).format("DD/MM/YYYY")} </p>
-                            <p className='text-3xl font-bold '>25 °C</p>
+                            <p className='text-3xl font-bold '>{WeatherData.main.temp.toFixed(0)} °C</p>
                             <p className='text-sm font-mono text-gray-500 py-2'>{WeatherData.weather[0].main}</p>
                         </div>
                         <div className='px-5 flex flex-col justify-center items-center'>

@@ -25,7 +25,7 @@ function WeatherDays() {
 
             day && (
 
-              <div key={key} className='flex flex-col p-2 justify-center items-center border rounded-lg'>
+              <div key={key} className='flex flex-col p-2 justify-center items-center border-2 rounded-lg'>
                 <div>
                   <p className=''>  {getDayName(`${day.date}`)} </p>
                 </div>
